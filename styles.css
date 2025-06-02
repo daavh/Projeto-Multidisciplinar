@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a; /* Fundo escuro para destacar as cores */
+    color: #e0e0e0; /* Cor do texto em tom claro */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Cabeçalho principal com destaque em vermelho e preto */
+h1 {
+    font-family: 'Cascadia Code', monospace;
+    font-size: 2.5em;
+    color: linear-gradient(90deg, #c0392b, #e74c3c); /* Gradiente vermelho */
+    text-align: center;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #c0392b, #e74c3c);
+}
+
+/* Subtítulos com combinação de vermelho escuro e preto */
+h2 {
+    font-family: 'Cascadia Code', monospace;
+    font-size: 2em;
+    color: #c0392b ; /* Preto suave */
+    margin-top: 40px;
+    margin-bottom: 15px;
+    text-align: center;
+    position: relative;
+}
+
+/* Destaque em caixas com fundo branco, borda vermelha e sombra escura */
+h4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    border: 2px solid #c0392b; /* Borda vermelha escura */
+    color: #333;
+}
+
+/* Container dos botões com espaçamento */
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+/* Botões estilizados com fundo preto e detalhes vermelhos */
+button {
+    background-color: #000; /* Preto sólido */
+    color: #c0392b; /* Vermelho escuro para o texto */
+    border: 2px solid #c0392b; /* Borda vermelha */
+    padding: 15px 30px;
+    font-size: 1.1em;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s, color 0.3s;
+}
+
+/* Efeito hover nos botões com fundo vermelho e texto preto */
+button:hover {
+    background-color: #c0392b; /* Vermelho */
+    color: #fff; /* Texto branco para contraste */
+    transform: scale(1.05);
+}
+
+/* Opcional: animação suave para o texto dos títulos */
+h1, h2 {
+    transition: all 0.3s ease;
+}
